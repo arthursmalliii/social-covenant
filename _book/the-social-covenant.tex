@@ -5,16 +5,19 @@
 \documentclass[
 ]{book}
 \usepackage{amsmath,amssymb}
-\usepackage{lmodern}
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
 \else % if luatex or xetex
-  \usepackage{unicode-math}
+  \usepackage{unicode-math} % this also loads fontspec
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -68,16 +71,16 @@
 \bibliographystyle{apalike}
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\urlstyle{same} % disable monospaced font for URLs
+\urlstyle{same}
 \hypersetup{
   pdftitle={The Social Covenant},
-  pdfauthor={Peter Lupu and Arthur Small},
+  pdfauthor={Athena Small},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
 \title{The Social Covenant}
-\author{Peter Lupu and Arthur Small}
-\date{Draft version of 2023-01-19}
+\author{Athena Small}
+\date{Draft version of 2023-08-03}
 
 \begin{document}
 \maketitle
@@ -193,8 +196,8 @@ This work is the third. This work is motivated as a Declaration of Independence 
 
 {[}PL: I never read the Em Proc.{]} This Declaration must convey the same powerful message that are corresponding in their generality and power of their values to the same level of the first two DoIs.
 
-\hypertarget{the-need-for-a-fourth-founding-based-on-a-new-social-covenant}{%
-\section{The Need for a Fourth Founding, Based on a New Social Covenant}\label{the-need-for-a-fourth-founding-based-on-a-new-social-covenant}}
+\hypertarget{the-need-for-a-new-refounding-based-on-a-new-social-covenant}{%
+\section{The Need for a New Refounding, Based on a New Social Covenant}\label{the-need-for-a-new-refounding-based-on-a-new-social-covenant}}
 
 Each of the foundings addresed fundamental questions:
 
@@ -296,70 +299,6 @@ What this project is, and why we undertake it.
 
 \hypertarget{a-central-problem-confusion-over-our-shared-basic-values}{%
 \section{A central problem: confusion over our shared basic values}\label{a-central-problem-confusion-over-our-shared-basic-values}}
-
-\hypertarget{the-concept-of-a-social-covenant}{%
-\section{\texorpdfstring{The concept of a \emph{social covenant}}{The concept of a social covenant}}\label{the-concept-of-a-social-covenant}}
-
-A covenant:
-
-\begin{itemize}
-\tightlist
-\item
-  establishes (or re-establishes) a community;
-\item
-  defines who is a member of the community;
-\item
-  identifies what it is that binds the community together -- divine command, blood relations, shared allegiance to a sovereign power, voluntary association, \ldots{}
-\item
-  identifies the \emph{terms} of association, the shared \emph{values}, and some foundational laws that members of the community proclaim, accept, and agree to live by
-\end{itemize}
-
-\hypertarget{the-difference-between-a-social-covenant-and-a-constitution}{%
-\section{The difference between a social covenant and a constitution}\label{the-difference-between-a-social-covenant-and-a-constitution}}
-
-\hypertarget{a-constitution-is-a-political-document}{%
-\subsection{A constitution is a political document}\label{a-constitution-is-a-political-document}}
-
-\hypertarget{a-social-covenant-is-both-political-and-spiritual}{%
-\subsection{A social covenant is both political and spiritual}\label{a-social-covenant-is-both-political-and-spiritual}}
-
-The adoption of a new social covenant is \emph{always} ritualized, in a grand ceremony.
-
-Periodic rituals reaffirm the commitment to the community.
-
-Always, \emph{symbols} are used to stand for the community as a whole, and indicate membership in it. (Flags, patches, logos, \ldots)
-
-\hypertarget{the-terms-of-the-covenant-are-incomplete}{%
-\subsection{\texorpdfstring{The terms of the covenant are \emph{incomplete}}{The terms of the covenant are incomplete}}\label{the-terms-of-the-covenant-are-incomplete}}
-
-The covenant states broad, general principles or values by which the community will live. These values are not stated with legal precision. The statement of principle does not cover all cases of application, and is not intended to.
-
-The covenant does not describe the process of governance. It does not state the number of members in representative political bodies, their powers, and the mechanisms of their selection and replacement. Rather, the covenant states objectives and constraints that governance processes must adhere to.
-
-\hypertarget{the-u.s.-today-a-contested-covenant}{%
-\section{The U.S. today: A contested covenant}\label{the-u.s.-today-a-contested-covenant}}
-
-A central confusion in the U.S. today concerns the disputed terms of our unwritten social covenant, and confusion over the difference between our covenant and our Constitution.
-
-\hypertarget{the-u.s.-has-a-de-facto-social-covenant}{%
-\subsection{\texorpdfstring{The U.S. has a \emph{de facto} social covenant}{The U.S. has a de facto social covenant}}\label{the-u.s.-has-a-de-facto-social-covenant}}
-
-The U.S. has a written social contract: the Constitution.
-
-The U.S. has an \emph{unwritten} social covenant. In fact, more than one.
-
-Our social covenant is spread over a few places: The Declaration of Independence. The Preamble to the Constitution. The Bill of Rights. The Pledge of Allegiance.
-
-\hypertarget{the-social-convenant-of-the-u.s.-is-contested}{%
-\subsection{\texorpdfstring{The social convenant of the U.S. is \emph{contested}}{The social convenant of the U.S. is contested}}\label{the-social-convenant-of-the-u.s.-is-contested}}
-
-Some basic terms of our social covenant have never been settled.
-
-Who is a full member of the community?
-
-What are the rights and obligations of community members to one another?
-
-What role does religion and religious scripture hold in setting the terms of the covenant -- if any?
 
 \hypertarget{the-project-we-undertake-in-this-book}{%
 \section{The project we undertake in this book}\label{the-project-we-undertake-in-this-book}}
