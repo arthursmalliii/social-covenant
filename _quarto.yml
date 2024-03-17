@@ -21,8 +21,11 @@ book:
     #   chapters:
     #   - privatization.qmd
 
-
-bibliography: the-social-covenant.bib
+# bibliography: the-social-covenant.bib
+bibliography: [The_Social_Covenant.bib, book.bib]
+# biblio-style: apalike
+# link-citations: true
+# description: ""
 
 format:
   html:
