@@ -1,9 +1,35 @@
-book_filename: "the-social-covenant"
-rmd_files:
- -   index.rmd
- -   01-introduction.rmd
- -   06-references.rmd
-delete_merged_file: true
-language:
-  ui:
-    chapter_name: "Chapter "
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "The Social Covenant of Democracy"
+  author: "Athena Small"
+  date: "2024"
+  chapters:
+    - index.qmd
+    - 01-introduction.qmd
+    - 02-What_is_a_social_covenant.qmd
+    - 03-current-us-covenant.qmd
+    - 06-references.qmd
+
+    # - part: "I: WELFARE ECONOMICS OF PUBLIC POLICY"
+    #   chapters: 
+    #   - perfect-competition-welfare-theorems.qmd
+    #   - imperfect-competition.qmd
+    # - part: "II: TRANSACTION COST ECONOMICS: MARKETS AND HIERARCHIES"
+    #   chapters:
+    #   - privatization.qmd
+
+
+bibliography: the-social-covenant.bib
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+
+editor: visual
+
+
+    

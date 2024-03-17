@@ -2,12 +2,12 @@
 title: "The Social Covenant"
 author: "Athena Small"
 date: "Draft version of `r Sys.Date()`"
-site: bookdown::bookdown_site
-output: bookdown::bs4_book
-documentclass: book
+# site: bookdown::bookdown_site
+# output: bookdown::bs4_book
+# documentclass: book
 # bibliography: [The_Social_Covenant.bib, book.bib]
 biblio-style: apalike
-link-citations: yes
+link-citations: true
 description: ""
 ---
 

@@ -42,3 +42,5 @@ rsconnect/
 # Cloud storage system files
 Icon?
 
+
+/.quarto/
