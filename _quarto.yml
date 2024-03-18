@@ -11,12 +11,16 @@ book:
     - 01-introduction.qmd
     - 02-What_is_a_social_covenant.qmd
     - 03-current-us-covenant.qmd
-    - part: "Social Covenants in Scripture and in History"
+    - part: "Part I: Social Covenants in Scripture and in History"
       chapters: 
         - 04-divine-covenants.qmd
         - 05-greco-roman-covenants.qmd
         - 06-medieval-early-modern.qmd
-    - 06-references.qmd
+    - part: "Part II: The Enlightenment Project"
+      chapters:
+      - 07-enlightenment-social-contract.qmd
+    - part: "Part III: Designing a Social Covenant for an Enlightened Liberal Democracy"
+    - 99-references.qmd
 
     # - part: "Part I"
     #   chapters: 
