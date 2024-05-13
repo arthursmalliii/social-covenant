@@ -19,16 +19,18 @@ book:
     - part: "Part II: The Enlightenment Project"
       chapters:
       - 07-enlightenment-social-contract.qmd
-    - part: "Part III: Designing a Social Covenant for an Enlightened Liberal Democracy"
+    - part: "Part III: The Social Covenant of the United States of America"
+      # chapters:
+      # - contract-covenant-constitution.qmd
+      # - originalism.qmd
+      # - indigenous-critique.qmd
+      # - black-critique.qmd
+      # - libertarian-option.qmd
+      # - christian-nationalist-option.qmd
+    - part: "Part IV: Designing a Social Covenant for an Enlightened Liberal Democracy"
+    - part: "Part V: What Next?"
     - 99-references.qmd
 
-    # - part: "Part I"
-    #   chapters: 
-    #   - chapter.qmd
-    #   - antoher-chapter.qmd
-    # - part: "Part II"
-    #   chapters:
-    #   - yet-another-chapter.qmd
 
 # bibliography: the-social-covenant.bib
 bibliography: [The_Social_Covenant.bib, book.bib]
